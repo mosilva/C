@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+char n;
+double s,c;
+scanf("%s",&n);
+scanf("%lf",&s);
+scanf("%lf",&c);
+c = 0.15*c;
+s = s + c;
+printf("TOTAL = R$ %.2lf\n",s);
+return 0;
+}
